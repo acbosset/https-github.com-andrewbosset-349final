@@ -35,7 +35,7 @@ able to achieve near 53% as well. I then trimmed almost half of variable and att
 but received less accuracy.
 ```
 
-![Naming it](/pic2.png)
+![Naming it](/pic3.png)
 
 ```
 	There were many variables I did not account for such as All-star level talent, injuries, and
