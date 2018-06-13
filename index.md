@@ -7,8 +7,7 @@ SUMMARY:
 	To investigate this, I collected data from various NBA online databases through either developing web scrapers designed for that data or by shear manpower. I focused my data collection on the 2017-2018 season and used weka to try to model learning algorithms to predict whether two teams will pass a overunder. Ultimately my models failed to successfully pick the over or under with any statistical significance. Randomforest topped out as the most successful at 52%. This was after a lot of parameter tweaking which leads me to believe that with more refined attributes and with optimal parameters there is room for improvement.
 
 
-[Link](https://github.com/acbosset/https-github.com-andrewbosset-349final/blob/master/Screen%20Shot%202018-06-12%20at%209.24.48%20PM.png) 
-
+(Threshold curve for Over classification on best case Random Forest)
 ![Naming it](/pic1.png)
 
 
@@ -34,6 +33,9 @@ coming in around 52% accuracy while the random forest failed to achieve half. Th
 random forest was the ability to rate the importance of each attribute. Utilizing this random forest was 
 able to achieve near 53% as well. I then trimmed almost half of variable and attempted again 
 but received less accuracy.
+
+![Naming it](/pic2.png)
+
 	There were many variables I did not account for such as All-star level talent, injuries, and
 the streakiness of teams. Injuries can have a large effect when you consider that I was using
 whole season averages so a late season injury or an early season injury to a star can really 
