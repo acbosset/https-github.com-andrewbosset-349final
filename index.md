@@ -9,7 +9,6 @@ SUMMARY:
 
 [Link](url) and ![Image](src)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```
 Data: The data was a set of 1230 examples or exactly one complete NBA season. 
@@ -36,3 +35,4 @@ the oddsmakers are when they set lines. It is clear that any attribute I would g
 the hands of the odds makers and much easier to obtain. I’m under the impression that for odds such as the 
 spread or the over/under there is little if anything I could do to completely overmatch the oddsmakers.
 ```
+Member Contributions:  I was the sole member.
