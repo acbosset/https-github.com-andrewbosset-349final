@@ -10,21 +10,8 @@ SUMMARY: My task was to predict whether two teams would cover the over or under 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Andrew Bosset
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
+```
+Data: The data was a set of 1230 examples or exactly one complete NBA season. The data set included the basic stats for both the home and away team(ft fg,2pt and 3pt stats for attempted made, and percentage. Rebounding rates, turnover rates, assists, steals, and blocks). I also created the fields of whether or not a team was playing back to back nights and how many wins the team had at the time of their game. The O/U was what was to be classified. When testing the data I used 10-fold-cv
 [Link](url) and ![Image](src)
 ```
 
