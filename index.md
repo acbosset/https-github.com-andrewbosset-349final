@@ -5,22 +5,17 @@
 SUMMARY: My task was to predict whether two teams would cover the over or under provided by Vegas for each NBA basketball game. This task carries obvious importance due to the betting significance.  Vegas oddsmakers get payed a ton to set perfect odds such as the over/under so it would be quite a feat to have an advantage over their odds. 
 	To investigate this, I collected data from various NBA online databases through either developing web scrapers designed for that data or by shear manpower. I focused my data collection on the 2017-2018 season and used weka to try to model learning algorithms to predict whether two teams will pass a overunder. Ultimately my models failed to successfully pick the over or under with any statistical significance. Randomforest topped out as the most successful at 52%. This was after a lot of parameter tweaking which leads me to believe that with more refined attributes and with optimal parameters there is room for improvement.
 
-
-### Markdown
+[Link](url) and ![Image](src)
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```
-Data: The data was a set of 1230 examples or exactly one complete NBA season. The data set included the basic stats for both the home and away team(ft fg,2pt and 3pt stats for attempted made, and percentage. Rebounding rates, turnover rates, assists, steals, and blocks). I also created the fields of whether or not a team was playing back to back nights and how many wins the team had at the time of their game. The O/U was what was to be classified. When testing the data I used 10-fold-cv
+Data: The data was a set of 1230 examples or exactly one complete NBA season. 
+The data set included the basic stats for both the home and away team
+(ft fg,2pt and 3pt stats for attempted made, and percentage. Rebounding rates, turnover rates, assists, steals, and blocks).
+I also created the fields of whether or not a team was playing 
+back to back nights and how many wins the team had at the time of their game. 
+The O/U was what was to be classified. When testing the data I used 10-fold-cv
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/acbosset/https-github.com-andrewbosset-349final/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
