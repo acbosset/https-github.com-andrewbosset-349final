@@ -7,10 +7,12 @@ SUMMARY:
 	To investigate this, I collected data from various NBA online databases through either developing web scrapers designed for that data or by shear manpower. I focused my data collection on the 2017-2018 season and used weka to try to model learning algorithms to predict whether two teams will pass a overunder. Ultimately my models failed to successfully pick the over or under with any statistical significance. Randomforest topped out as the most successful at 52%. This was after a lot of parameter tweaking which leads me to believe that with more refined attributes and with optimal parameters there is room for improvement.
 
 
-[Link](url) and ![Image](src)
-https://github.com/acbosset/https-github.com-andrewbosset-349final/blob/master/Screen%20Shot%202018-06-12%20at%209.24.48%20PM.png
+[Link](https://github.com/acbosset/https-github.com-andrewbosset-349final/blob/master/Screen%20Shot%202018-06-12%20at%209.24.48%20PM.png) 
+
+![Image](Screen Shot 2018-06-12 at 9.24.48 PM.png)
 
 
+Screen Shot 2018-06-12 at 9.24.48 PM.png
 ```
 Data: The data was a set of 1230 examples or exactly one complete NBA season. 
 The data set included the basic stats for both the home and away team
@@ -18,7 +20,6 @@ The data set included the basic stats for both the home and away team
 assists, steals, and blocks). I also created the fields of whether or not a team was playing 
 back to back nights and how many wins the team had at the time of their game. 
 The O/U was what was to be classified. When testing the data I used 10-fold-cv
-[Link](url) and ![Image](src)
 ```
 
 
