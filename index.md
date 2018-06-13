@@ -10,6 +10,7 @@ SUMMARY:
 [Link](url) and ![Image](src)
 
 
+
 ```
 Data: The data was a set of 1230 examples or exactly one complete NBA season. 
 The data set included the basic stats for both the home and away team
@@ -18,6 +19,12 @@ I also created the fields of whether or not a team was playing
 back to back nights and how many wins the team had at the time of their game. 
 The O/U was what was to be classified. When testing the data I used 10-fold-cv
 [Link](url) and ![Image](src)
+```
+
+
+```
+Implementation: I uploaded the file to Weka to test out different classification models. First I tested the model on zeroR which returned an astonishingly close to even model of 50.6504% accuracy. I knew that this would make my task hard as it might be difficult to derive which attributes would be involved in a skewed data.. The main classifier I was interested in going in was a Random Forest. During experimentation I tested decision tree, RandomForest, Bayes Net, Naïve Bayes, multilayer perceptron, logistic regression and Random Committee.  I tested the decision tree and random forest first with the DT coming in around 52% accuracy while the random forest failed to achieve half. The benefit I saw in using the random forest was the ability to rate the importance of each attribute. Utilizing this random forest was able to achieve near 52% as well. I then trimmed almost half of variable and attempted again but received less accuracy.
+	There were many variables I did not account for such as All-star level talent, injuries, and the streakiness of teams. Injuries can have a large effect when you consider that I was using whole season averages so a late season injury or an early season injury to a star can really throw that off and the rhythm. One thing I noticed for spreads was that teams that were covering tended to continue to cover which didn’t seem to be as prevalent of a trend in O/U
 ```
 ```
 Discussion: My original intention was to build a model to attempt to predict which team would cover the spread in 
