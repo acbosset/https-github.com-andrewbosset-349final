@@ -33,9 +33,11 @@ coming in around 52% accuracy while the random forest failed to achieve half. Th
 random forest was the ability to rate the importance of each attribute. Utilizing this random forest was 
 able to achieve near 53% as well. I then trimmed almost half of variable and attempted again 
 but received less accuracy.
+```
 
 ![Naming it](/pic2.png)
 
+```
 	There were many variables I did not account for such as All-star level talent, injuries, and
 the streakiness of teams. Injuries can have a large effect when you consider that I was using
 whole season averages so a late season injury or an early season injury to a star can really 
